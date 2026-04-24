@@ -1,0 +1,9 @@
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-item/src/main/java/com/formacionbdi/springboot/app/item/models/service/ItemService.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-item/src/main/java/com/formacionbdi/springboot/app/item/clientes/ProductoClienteRest.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-item/src/main/java/com/formacionbdi/springboot/app/item/models/Item.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-item/src/main/java/com/formacionbdi/springboot/app/item/controllers/ItemController.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-item/src/main/java/com/formacionbdi/springboot/app/item/models/Producto.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-item/src/main/java/com/formacionbdi/springboot/app/item/models/service/ItemServiceFeign.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-item/src/main/java/com/formacionbdi/springboot/app/item/models/service/ItemServiceImpl.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-item/src/main/java/com/formacionbdi/springboot/app/item/AppConfig.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-item/src/main/java/com/formacionbdi/springboot/app/item/SpringbootServicioItemApplication.java

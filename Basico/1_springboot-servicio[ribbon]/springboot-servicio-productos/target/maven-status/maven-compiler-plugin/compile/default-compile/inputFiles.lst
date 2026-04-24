@@ -1,0 +1,6 @@
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-productos/src/main/java/com/formacionbdi/springboot/app/productos/controllers/ProductoController.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-productos/src/main/java/com/formacionbdi/springboot/app/productos/models/service/IProductoService.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-productos/src/main/java/com/formacionbdi/springboot/app/productos/SpringbootServicioProductosApplication.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-productos/src/main/java/com/formacionbdi/springboot/app/productos/models/dao/ProductoDao.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-productos/src/main/java/com/formacionbdi/springboot/app/productos/models/service/ProductoServiceImpl.java
+/home/luisramos/documents/ComputacionEnLaNube/Tarea02_ComputacionNube/Basico/1_springboot-servicio[ribbon]/springboot-servicio-productos/src/main/java/com/formacionbdi/springboot/app/productos/models/entity/Producto.java
