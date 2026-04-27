@@ -1,5 +1,5 @@
-com/formacionbdi/springboot/app/productos/models/service/ProductoServiceImpl.class
 com/formacionbdi/springboot/app/productos/models/dao/ProductoDao.class
+com/formacionbdi/springboot/app/productos/models/service/ProductoServiceImpl.class
 com/formacionbdi/springboot/app/productos/controllers/ProductoController.class
 com/formacionbdi/springboot/app/productos/models/entity/Producto.class
 com/formacionbdi/springboot/app/productos/SpringbootServicioProductosApplication.class
