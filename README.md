@@ -76,7 +76,7 @@ try {
     e.printStackTrace();
 }
 ```
-
+#### Ejemplo: Ingresando en http://localhost:8090/api/item/ver/1/cantidad/5 obtenemos (tomando en cuenta que ese item si existe):
 Debido a que el tiempo de respuesta excedió el límite de 1 segundo configurado por defecto en Hystrix, se activó automáticamente el método de respaldo, devolviendo el objeto con el nombre "Carro de repuesto" y precio 0.0.
 
 <img src="imagenes/carro_de_repuesto_retraso.png" alt="Carro de repuesto debido a retraso">
