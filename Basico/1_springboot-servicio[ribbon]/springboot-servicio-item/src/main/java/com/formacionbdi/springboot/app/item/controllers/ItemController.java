@@ -33,7 +33,15 @@ public class ItemController {
 
 	@HystrixCommand(fallbackMethod = "metodoAlternativo")
 	@GetMapping("/ver/{id}/cantidad/{cantidad}")
-	public Item detalle(@PathVariable Long id, @PathVariable Integer cantidad) {
+	public Item detalle(@PathVariable Long id, @PathVariable Integer cantidad){
+		
+        try {
+			// Latencia artificial de 1.5s
+			Thread.sleep(1500L); 
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		} 
+		
 		return itemService.findById(id, cantidad);
 	}
 
