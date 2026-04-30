@@ -11,6 +11,8 @@ Para habilitar el servicio como proxy y gateway de la aplicación, se utilizó l
 
 Adicionalmente, el servidor se configuró para registrarse en el servidor de nombres **Eureka** y exponerse en el puerto `8090`/springboot-servicio-zuul-server/src/main/resources/application.properties.
 
+<img src="imagenes/eureka_levantado.png" alt="Servidor Eureka">
+
 ---
 
 ## 3. Funcionalidades Implementadas
@@ -21,8 +23,8 @@ Se configuraron rutas dinámicas en el archivo `application.properties` de Zuul 
 zuul.routes.productos.service-id=servicio-productos
 zuul.routes.productos.path=/api/productos/**
 
-zuul.routes.item.service-id=servicio-item
 zuul.routes.item.path=/api/item/**
+zuul.routes.item.service-id=servicio-item
 ```
 
 #### Ejemplo: Ingresando en http://localhost:8090/api/productos/ver/1 obtenemos:
@@ -32,6 +34,12 @@ zuul.routes.item.path=/api/item/**
 ### 3.2 Balanceo de Puertos con Hystrix
 
 La aplicación utiliza Ribbon en conjunto con Zuul para balancear las peticiones entre las distintas instancias disponibles de los microservicios. Esto se complementa con la configuración de timeouts de Hystrix para asegurar que ninguna conexión bloquee el sistema/springboot-servicio-zuul-server/src/main/resources/application.properties.
+
+Para ver el balanceo de puertos debemos iniciar 2 instancias de productos y despues en http://localhost:8090/api/productos/listar y refrescar para ver como cambia de puerto como en las siguientes imagenes
+
+<img src="imagenes/Balanceo1.png" alt="Balanceo de puertos 1">
+
+<img src="imagenes/Balanceo2.png" alt="Balanceo de puertos 2">
 
 ### 3.3 Recuperación de Errores (Fallback)
 
@@ -59,7 +67,7 @@ public Item metodoAlternativo(Long id, Integer cantidad) {
 <img src="imagenes/carro_de_repuesto.png" alt="Carro de repuesto">
 
 ### 3.4 Latencia (Recuperación por Timeout)
-Tambien se hizo una prueba de latencia forzada agregando un retraso en el controlador:
+Tambien se hizo una prueba de latencia forzada agregando un retraso en ProductoController:
 
 ```
 try {

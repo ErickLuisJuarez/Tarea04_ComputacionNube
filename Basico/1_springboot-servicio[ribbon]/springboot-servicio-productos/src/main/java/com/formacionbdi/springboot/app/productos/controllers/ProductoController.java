@@ -48,13 +48,13 @@ public class ProductoController {
 		//producto.setPort(port);
 		
 		
-		/*  try {
-			Thread.sleep(2000L);
+		  try {
+			Thread.sleep(1500L);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		*/
+		
 		return producto;
 	}
 	
